@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+.container .wrapper {
+  display: flex;
+  width: 55%;
+}
+.container .wrapper .form-action {
+  width: 50%;
+  padding: 20px;
+}
+.title {
+  font-size: 30px;
+  font-weight: 700;
+}
+.reminder {
+  color: red;
+  margin-top: 20px;
+}
+.form-title {
+  font-size: 20px;
+  margin-top: 20px;
+  text-align: center;
+  font-weight: 700;
+}
+.form-control {
+  margin-top: 10px;
+}
+.form-control .form-input {
+  width: 100%;
+  height: 40px;
+  border: 1px solid black;
+  padding-left: 8px;
+  border-radius: 8px;
+}
+.form-control button {
+  background-color: orangered;
+  border: none;
+  width: 100%;
+  height: 40px;
+  border-radius: 8px;
+  color: white;
+  cursor: zoom-in;
+}
+.acc-exist {
+  text-align: center;
+  margin-top: 20px;
+}
+.container .wrapper .form-img {
+  width: 50%;
+}
+.container .wrapper .form-img img {
+  width: 100%;
+}
+.login-nav {
+  color: orange;
+  text-decoration: none;
+}
